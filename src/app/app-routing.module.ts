@@ -30,14 +30,9 @@ import { ServicesOneComponent } from './components/pages/services-one/services-o
 import { AboutComponent } from './components/pages/about/about.component';
 
 const routes: Routes = [
-    {path: '', component: HomeOneComponent},
-    {path: 'home-two', component: HomeTwoComponent},
-    {path: 'home-three', component: HomeThreeComponent},
-    {path: 'home-four', component: HomeFourComponent},
-    {path: 'home-five', component: HomeFiveComponent},
-    {path: 'home-six', component: HomeSixComponent},
-    {path: 'home-seven', component: HomeSevenComponent},
-    {path: 'home-eight', component: HomeEightComponent},
+
+    {path: '', component: HomeTwoComponent},
+
     {path: 'about', component: AboutComponent},
     {path: 'services-one', component: ServicesOneComponent},
     {path: 'services-two', component: ServicesTwoComponent},
