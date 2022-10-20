@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule, ExtraOptions } from '@angular/router';
 
 import { HomeTwoComponent } from './components/pages/home-two/home-two.component';
 
@@ -52,6 +52,11 @@ const routes: Routes = [
 
     {path: '**', component: ErrorComponent} // This line will remain down from the whole pages component list
 ];
+
+const routerOPtions: ExtraOptions = {
+    scrollPositionRestoration: 'enabled',
+    anchorScrolling: 'enabled',
+}
 
 @NgModule({
     imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
