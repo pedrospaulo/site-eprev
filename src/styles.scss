@@ -3407,7 +3407,8 @@ Skill Area CSS
     overflow: hidden;
 }
 .skills-image {
-    width: 100%;
+    position: sticky;
+    width: 80%;
     height: 600px;
     background: {
         image: url(assets/img/skills.jpg);
@@ -3418,6 +3419,54 @@ Skill Area CSS
     img {
         display: none;
     }
+    .video-btn {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        background-color: $main-color;
+        border-radius: 50%;
+        color: $white-color;
+        position: absolute;
+        z-index: 1;
+        left: 300px;
+        top: 55%;
+        transform: translateY(-55%);
+        font-size: 35px;
+        text-align: center;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 1px solid $main-color;
+            animation: ripple 2s linear 1s infinite;
+        }
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: -1;
+            bottom: 0;
+            left: 0;
+            border-radius: 50%;
+            border: 1px solid $main-color;
+            animation: ripple 2s linear infinite;
+        }
+        &:hover, &:focus {
+            background-color: $black-color;
+            color: $white-color;
+        }
+    }
+
 }
 .skills-area {
     box-shadow: 0 5px 40px 0 rgba(0, 0, 0, 0.11);
