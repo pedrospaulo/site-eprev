@@ -3902,28 +3902,7 @@ Pricing Area CSS
             font-weight: 500;
         }
     }
-    .price {
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-        line-height: 100px;
-        background-color: $white-color;
-        border-radius: 50px;
-        font: {
-            size: 25px;
-            weight: bold;
-        };
-        margin: {
-            top: 16px;
-            bottom: 16px;
-        };
-        sup {
-            font-weight: 400;
-        }
-        sub {
-            font-weight: 400;
-        }
-    }
+    
     .pricing-list {
         padding-left: 0;
         margin-bottom: 0;
