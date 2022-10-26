@@ -5261,16 +5261,20 @@ Page Title Area CSS
         attachment: fixed;
     };
     &.item-bg-1 {
-        background-image: url(assets/img/page-title/bg.jpg);
+        background: #b9d2ed;
+        //background-image: url(assets/img/page-title/bg.jpg);
     }
     &.item-bg-2 {
-        background-image: url(assets/img/page-title/bg-2.jpg);
+        background: #b9d2ed;
+        //background-image: url(assets/img/page-title/bg-2.jpg);
     }
     &.item-bg-3 {
-        background-image: url(assets/img/page-title/bg-4.jpg);
+        background: #b9d2ed;
+        //background-image: url(assets/img/page-title/bg-4.jpg);
     }
     &.item-bg-4 {
-        background-image: url(assets/img/page-title/bg-5.jpg);
+        background: #b9d2ed;
+        //background-image: url(assets/img/page-title/bg-5.jpg);
     }
     &::before {
         content: '';
@@ -5280,7 +5284,7 @@ Page Title Area CSS
         z-index: -1;
         width: 100%;
         height: 100%;
-        background: #000000;
+        background: #d9dded00;
         opacity: .77;
     }
 }
