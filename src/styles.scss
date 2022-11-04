@@ -2028,6 +2028,18 @@ Video Section CSS
         bottom: 200px;
     };
 }
+.video-section1 {
+    background: {
+        image: url(assets/img/video-bg-1.jpg);
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    };
+    padding: {
+        top: 200px;
+        bottom: 200px;
+    };
+}
 .video-content {
     text-align: center;
     position: relative;
@@ -3411,7 +3423,7 @@ Skill Area CSS
     width: 80%;
     height: 600px;
     background: {
-        image: url(assets/img/skills.jpg);
+        image: url(assets/img/work-bg.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;
